@@ -67,4 +67,3 @@ This project is done for my Final submission of SP24: VISUALIZATION DES, ANLS & 
 
 ---
 
-You can adapt this README template according to the specifics of your project and repository settings like the actual repository URL, additional sections on API usage if applicable, and deployment instructions. This template assumes a basic Flask application running locally for demonstration purposes.
