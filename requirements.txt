@@ -7,5 +7,3 @@ joblib==1.2.0
 matplotlib==3.7.1
 scikit-learn==1.2.2
 Pillow==9.4.0
-
-
