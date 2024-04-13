@@ -12,7 +12,7 @@ st.set_page_config(page_title='Engine Health Analysis', layout='wide')
 
 
 # Load the dataset
-@st.cache_data
+@st.cache
 def load_data(filename):
     data = pd.read_csv(filename)
     return data
