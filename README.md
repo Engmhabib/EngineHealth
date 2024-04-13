@@ -62,8 +62,5 @@ Here are some ways you can contribute:
 ## License
 This project is done for my Final submission of SP24: VISUALIZATION DES, ANLS & EVAL: 21392
 
-## Acknowledgments
-- Thanks to the contributors who spend time to help improve this project.
-
 ---
 
