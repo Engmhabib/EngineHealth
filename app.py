@@ -41,7 +41,7 @@ st.sidebar.write("Developed by M. Habib Agrebi")
 
 # About section
 if selection == "About":
-    st.header("About This Project")
+    st.header("📘About This Project")
     st.write("""
     In this project, we aim to uncover the intricate relationships between various engine performance metrics and their impact on engine health. By examining metrics such as engine RPM, lubricating oil pressure, and coolant temperature, among others, we seek to answer pertinent questions regarding engine health.
     """)
@@ -60,7 +60,7 @@ if selection == "About":
 
 # Data Visualization section
 if selection == "Data Visualization":
-    st.header("Data Visualization")
+    st.header("📊Data Visualization")
 
     # Sub-options for Data Visualization
     viz_selection = st.selectbox(
@@ -128,7 +128,7 @@ if selection == "Data Visualization":
 
 # Correlation Heatmap
 elif selection == "Correlation Heatmap":
-    st.header("Correlation Heatmap of Engine Metrics")
+    st.header("🔥Correlation Heatmap of Engine Metrics")
     correlation = df.corr()  # Compute the correlation matrix
     plt.figure(figsize=(10, 7))
     sns.heatmap(correlation, annot=True, fmt=".2f", cmap='coolwarm')
@@ -161,7 +161,7 @@ model = load('best_random_forest_classifier.joblib')
 
 # Prediction section
 if selection == "Predict Engine Health":
-    st.header("Predict Engine Health")
+    st.header("🚀Predict Engine Health")
     
     # Input fields for all engine metrics used in the model
     engine_rpm = st.number_input("Engine RPM", min_value=0.0, format="%.2f")
